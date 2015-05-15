@@ -1,0 +1,13 @@
+name: PluginManager
+main: org.airmc.pm.core.CorePlugin
+version: 1.0
+commands:
+   pload:
+      description: Load a specific plugin.
+      usage: /<command> [player]
+   punload:
+      description: Unload a specific plugin.
+      usage: /<command> [player]
+   preload:
+      description: Reload a specific plugin.
+      usage: /<command> [player]
