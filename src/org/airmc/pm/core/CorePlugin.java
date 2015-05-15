@@ -20,7 +20,7 @@ public class CorePlugin extends JavaPlugin {
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 			if(label.equalsIgnoreCase("pload")) {
-				if(args.length > 1) {
+				if(args.length < 1) {
 					sender.sendMessage("Usage: /pload <pluginName>");
 					return true;
 				}
@@ -37,7 +37,7 @@ public class CorePlugin extends JavaPlugin {
 			}
 			
 			if(label.equalsIgnoreCase("punload")) {
-				if(args.length > 1) {
+				if(args.length < 1) {
 					sender.sendMessage("Usage: /punload <pluginName>");
 					return true;
 				}
@@ -53,7 +53,7 @@ public class CorePlugin extends JavaPlugin {
 				return true;
 			}
 			if(label.equalsIgnoreCase("preload")) {
-				if(args.length > 1) {
+				if(args.length < 1) {
 					sender.sendMessage("Usage: /preload <pluginName>");
 					return true;
 				}

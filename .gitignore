@@ -1,0 +1,4 @@
+
+*.class
+
+bin/org/airmc/pm/core/CorePlugin.class
