@@ -4,10 +4,10 @@ version: 1.0
 commands:
    pload:
       description: Load a specific plugin.
-      usage: /<command> [player]
+      usage: /pload [plugin]
    punload:
       description: Unload a specific plugin.
-      usage: /<command> [player]
+      usage: /punload [plugin]
    preload:
       description: Reload a specific plugin.
-      usage: /<command> [player]
+      usage: /preload [plugin]
